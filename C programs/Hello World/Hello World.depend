@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1674064596 source:/home/itx_psycho/Documents/Hello World/main.c
+	<stdio.h>
+	<stdlib.h>
+
