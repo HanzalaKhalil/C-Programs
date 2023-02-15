@@ -233,13 +233,14 @@ Main:
 
     scanf("%c%c%d%c%c%d", &temp, &col[0], &row[0], &col[1], &col[1], &row[1]);
 
-    if (col[1]==col[0]&& row_i[1]==row[0])
+    if (col[1] == col[0] && row_i[1] == row[0])
     {
         printf("ERROR : SAME CELL");
         goto Main;
     }
 
     // GIVING COUNTER INDEX
+
     if (counter % 2 == 0)
     {
         counter_i = 1;
